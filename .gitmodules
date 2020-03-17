@@ -1,0 +1,4 @@
+[submodule "doctest"]
+	path = submodules/doctest
+	url = https://github.com/onqtam/doctest.git
+	shallow = true
