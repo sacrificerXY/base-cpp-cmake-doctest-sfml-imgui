@@ -3,6 +3,6 @@
 	url = https://github.com/onqtam/doctest.git
 	shallow = true
 [submodule "sfml"]
-	path = submodules\\sfml
+	path = submodules/sfml
 	url = https://github.com/SFML/SFML.git
 	shallow = true
