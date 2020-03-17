@@ -1,4 +1,4 @@
-# base-cpp-cmake-doctest
+# base-cpp-cmake-doctest-sfml-imgui
 Base project for C++
 
 ## Clone
