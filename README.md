@@ -7,7 +7,7 @@ git clone --shallow-submodules https://github.com/sacrificerXY/base-cpp-cmake-do
 ```
 
 Uses `git submodule` to manage dependencies:
-- [doctest](https://github.com/onqtam/doctest)
-- [SFML](https://github.com/SFML/SFML)
-- [ImGui](https://github.com/ocornut/imgui)
-- [ImGui-SFML](https://github.com/eliasdaler/imgui-sfml)
+- **[doctest](https://github.com/onqtam/doctest)**
+- **[sfml](https://github.com/SFML/SFML)**
+- **[imgui](https://github.com/ocornut/imgui)**
+- **[imgui-sfml-sacxy](https://github.com/sacrificerXY/imgui-sfml)** - a fork of original [imgui-sfml](https://github.com/eliasdaler/imgui-sfml) with slightly modified cmake configuration
