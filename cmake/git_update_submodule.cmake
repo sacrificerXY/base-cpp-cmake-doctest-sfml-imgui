@@ -4,9 +4,9 @@ function(git_update_submodule SUBMODULE_NAME FILE_SHOULD_EXIST)
     set(SUBMODULE_PATH submodules/${SUBMODULE_NAME})
     set(FILE_SHOULD_EXIST_PATH "${PROJECT_SOURCE_DIR}/${SUBMODULE_PATH}/${FILE_SHOULD_EXIST}")
     if(${CAN_GIT})
-        option(${UPDATE_SUBMODULE} "Update ${SUBMODULE_NAME} during build" ON)
+        option(${UPDATE_SUBMODULE} "Check ${SUBMODULE_NAME} during build" ON)
         if(${UPDATE_SUBMODULE})
-            message(STATUS "${SUBMODULE_NAME}: update")
+            message(STATUS "${SUBMODULE_NAME}: git submodule update --init --recursive --depth 1 -- ${SUBMODULE_PATH}")
             execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --init --recursive --depth 1 -- ${SUBMODULE_PATH}
                             WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
                             RESULT_VARIABLE GIT_SUBMOD_RESULT)

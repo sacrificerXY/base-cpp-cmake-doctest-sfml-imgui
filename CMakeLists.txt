@@ -19,8 +19,8 @@ git_update_submodule("imgui" "imgui.h")
 # # imgui-sfml
 set(IMGUI_DIR "${PROJECT_SOURCE_DIR}/submodules/imgui")
 set(SFML_DIR "${SFML_BINARY_DIR}")
-git_update_submodule("imgui-sfml" "CMakeLists.txt")
-add_subdirectory("submodules/imgui-sfml")
+git_update_submodule("imgui-sfml-sacxy" "CMakeLists.txt")
+add_subdirectory("submodules/imgui-sfml-sacxy")
 
 # source libraries
 add_subdirectory("src")
