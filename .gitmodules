@@ -10,3 +10,7 @@
 	path = submodules/imgui
 	url = https://github.com/ocornut/imgui.git
 	shallow = true
+[submodule "imgui-sfml-sacxy"]
+	path = submodules/imgui-sfml-sacxy
+	url = https://github.com/sacrificerXY/imgui-sfml.git
+	shallow = true
